@@ -16,7 +16,7 @@ void setup() {
 void loop() {
   float temp = bmp.readTemperature();
   float pres = bmp.readPressure();
-  Serial.print("Taking reading...Temperature: ");
+  Serial.print("Taking reading...\nTemperature: ");
   Serial.print(temp);
   Serial.print(" degC\nPressure: ");
   Serial.print(pres);
