@@ -7,7 +7,7 @@ students from Amrita School of Computing, Amrita Vishwa Vidyapeetham, Coimbatore
 
 ## Introduction
 
-![[assets/asc-iot-2.0-esp32-topview.jpg]]
+![The ASC CSE IoT 2.0](assets/asc-iot-2.0-esp32-topview.jpg)
 
 The ASC CSE IoT 2.0 board is the second in the series of boards released by Amrita School of Computing, Amrita Vishwa Vidyapeetham, Coimbatore.
 It is an all in one kit to get you started on embedded systems development.
@@ -37,19 +37,19 @@ Other modules using the same protocols will need to be connected to these interf
 
 Download the [Arduino IDE](https://www.arduino.cc/en/software) if you haven't done so already.
 
-1. Open the Arduino IDE. ![[assets/open]]
+1. Open the Arduino IDE. ![Open](assets/open)
 2. Click File > Preferences... 
 3. Paste this URL in the "Additional boards manager URLs":
 	```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
 	
-	![[assets/prefs.png]]
+	![Preferences](assets/prefs.png)
 4. Click OK.
 
 The required libraries should start downloading automatically (you will be notified). If not, do this:
 1. Click on Tools > Boards > Boards Manager...
-2. Search for "esp32" . ![[assets/boards.png]]
-3. Install "esp32 by Espressif Systems" ![[assets/install.png]]
-4. Verify that the installation starts. ![[assets/done.png]]
+2. Search for "esp32" . ![Boards](assets/boards.png)
+3. Install "esp32 by Espressif Systems" ![Install](assets/install.png)
+4. Verify that the installation starts. ![Done](assets/done.png)
 
 Once the installation is complete, you can write code for your board.
 
