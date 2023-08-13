@@ -37,7 +37,7 @@ Other modules using the same protocols will need to be connected to these interf
 
 Download the [Arduino IDE](https://www.arduino.cc/en/software) if you haven't done so already.
 
-1. Open the Arduino IDE. ![Open](assets/open)
+1. Open the Arduino IDE. ![Open](assets/open.png)
 2. Click File > Preferences... 
 3. Paste this URL in the "Additional boards manager URLs":
 	```https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json```
