@@ -51,9 +51,9 @@ The required libraries should start downloading automatically (you will be notif
 3. Install "esp32 by Espressif Systems" ![Install](assets/install.png)
 4. Verify that the installation starts. ![Done](assets/done.png)
 
-Once the installation is complete, you can write code for your board.
+Once the installation is complete, you can plug in your board to your PC and write code for it.
 
-Head over to the `basics/blink` folder to get started with programming on the ASC CSE IoT 2.0
+Head over to the `basics/led_blink` folder to get started with programming on the ASC CSE IoT 2.0.
 
 ## List of Modules
 
