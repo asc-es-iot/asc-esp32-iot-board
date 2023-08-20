@@ -70,7 +70,7 @@ All tutorials, code examples and testing work have been done by the following st
 * [Aadithyaa E](https://github.com/aadit-n3rdy)
 * [Jeet Thakur](https://github.com/Jeet-Thakur)
 * [Srivatsan Sriram](https://github.com/srivatssriram)
-* [Ananthakrishna Balaji](https://github.com/ananthakrishna7)
+* [Ananthakrishnan Balajee](https://github.com/ananthakrishna7)
 * [Ritesh Koushik](https://github.com/IAmRiteshKoushik)
 
 Under the guidance of our mentor:  
