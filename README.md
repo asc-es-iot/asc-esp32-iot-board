@@ -1,4 +1,6 @@
-# ASC ESP32 IoT Board
+![The ASC CSE IoT 2.0](assets/label/esp32-label.png)
+
+<center><h1> ASC ESP32 IoT Board </h1></center>
 
 A GitHub Repository for the IoT end device board for the ESP32, developed by 
 students from Amrita School of Computing, Amrita Vishwa Vidyapeetham, Coimbatore.
@@ -7,7 +9,7 @@ students from Amrita School of Computing, Amrita Vishwa Vidyapeetham, Coimbatore
 
 ## Introduction
 
-![The ASC CSE IoT 2.0](assets/asc-iot-2.0-esp32-topview.jpg)
+
 
 The ASC CSE IoT 2.0 board is the second in the series of boards released by Amrita School of Computing, Amrita Vishwa Vidyapeetham, Coimbatore.
 It is an all in one kit to get you started on embedded systems development.
