@@ -1,6 +1,6 @@
 ![The ASC CSE IoT 2.0](assets/label/esp32-label.png)
 
-<h1 style="text-align: center;">ESP32 IoT Board </h1>
+<h1 align="center">ESP32 IoT Board </h1>
 
 A tutorial repository for the IoT end device board - **ESP32** developed by 
 students and faculty from Amrita School of Computing, **Amrita Vishwa Vidyapeetham**, Coimbatore.
@@ -38,30 +38,9 @@ This enables simple plug-and-play use.
 
 Other modules using the same protocols will need to be connected to these interfaces using jumper wires if their pinouts don't match the connectors on the board.
 
-## Setup Arduino IDE
-
-Download the [Arduino IDE](https://docs.arduino.cc/) from the offical website [here](https://www.arudino.cc/en/software).  
-
-1. Open the Arduino IDE. ![Open](assets/open.png)
-2. Click File > Preferences... 
-3. Paste the following URL in the "Additional boards manager URLs":
-	```
-	https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
-	```
-	![Preferences](assets/prefs.png)
-4. Click OK.
-
-The required libraries should start downloading automatically. In case the above method does not work, proceed as follows:
-1. Click on **Tools** > **Boards** > **Boards Manager...
-2. Search for **esp32** . ![Boards](assets/boards.png)
-3. Install **esp32 by Espressif Systems** ![Install](assets/install.png)
-4. Wait for the installation to complete. A notification would be generated on completion. ![Done](assets/done.png)
-
-Once the installation is complete, you can write code for your board.
-
 ## Getting Started
 
-To begin learning about the ASC CSE IoT 2.0 (ESP32) - head over to the [`basics/blink`](basics/blink) directory.
+To begin learning about the ASC CSE IoT 2.0 (ESP32) complete the setup by refering to the [setup-docs](SETUP.md). Post setup, head over to the [`basics/blink`](basics/blink) directory to get started.
 
 ## List of Modules
 
@@ -79,7 +58,8 @@ The following modules are a part of the repository -
 ## References
 
 The following code snippets were obtained from the **examples for ESP32 boards** in the ESP32 support package by Espressif Systems for Arduino IDE:
-For further exploration, refer this [link]().
+For further exploration, refer this [link](#).
+<!-- List of important links to be added towards the end.-->
 
 ## Contribution Guidelines
 To contribute to the project, refer [CONTRIBUTING](CONTRIBUTING.md).
@@ -91,8 +71,7 @@ All tutorials, code examples and testing work have been done by the following st
 * [Jeet Thakur](https://github.com/Jeet-Thakur)
 * [Srivatsan Sriram](https://github.com/srivatssriram)
 * [Ananthakrishna Balaji](https://github.com/ananthakrishna7)
-
-The documentation has been done by [Ritesh Koushik](https://github.com/IAmRiteshKoushik)
+* [Ritesh Koushik](https://github.com/IAmRiteshKoushik)
 
 Under the guidance of our mentor:  
 **Dr. V Ananthanarayanan**   
