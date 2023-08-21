@@ -3,8 +3,8 @@
 Download the [Arduino IDE](https://docs.arduino.cc/) from the offical website [here](https://www.arudino.cc/en/software).  
 
 1. Open the Arduino IDE. ![Open](assets/open.png)
-2. Click File > Preferences... 
-3. Paste the following URL in the "Additional boards manager URLs":
+2. Click **File** > **Preferences...**
+3. Paste the following URL in **Additional boards manager URLs**:
 	```
 	https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 	```
@@ -12,10 +12,10 @@ Download the [Arduino IDE](https://docs.arduino.cc/) from the offical website [h
 4. Click OK.
 
 The required libraries should start downloading automatically. In case the above method does not work, proceed as follows:
-1. Click on **Tools** > **Boards** > **Boards Manager...
+1. Click on **Tools** > **Boards** > **Boards Manager...**
 2. Search for **esp32** . ![Boards](assets/boards.png)
 3. Install **esp32 by Espressif Systems** ![Install](assets/install.png)
-4. Wait for the installation to complete. A notification would be generated on completion. ![Done](assets/done.png)
+4. Wait for the installation to complete. ![Done](assets/done.png)
 
 Once the installation is complete, you can write code for your board.
 
