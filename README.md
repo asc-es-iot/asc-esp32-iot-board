@@ -54,6 +54,7 @@ The following modules are a part of the repository -
 | [**docs**](docs) | Complete documentation of the board. |
 | [**assets**]() | Contains all screenshots embedded in the tutorial documentation. |
 
+A reference to all the acronyms used during this tutorial can be found [here](./docs/Interfaces.md). 
 
 ## References
 
