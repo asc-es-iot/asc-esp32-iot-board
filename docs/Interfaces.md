@@ -13,15 +13,15 @@
 
 ### I$^2$C - Inter Integrated Controller 
 <!-- I2C : Markdown way of creating superscript-->
-- SDA(Serial Data) - GPIO21
-- SCL/SCK (Serial Clock) - GPIO22
+- Serial Data(SDA)- GPIO21
+- Serial Clock(SCL/SCK) - GPIO22
 
 ### CAN - Controller Area Network
 - Rx - GPIO26
 - Tx - GPIO25
 
 ### SPI - Serial Peripheral Interface 
-- CS(Chip Select) - GPIO15
-- SDO(Serial Data Out) - GPIO12
-- SDI(Serial Data In) - GPIO13
-- CLK(Clock) - GPIO14
+- Chip Select(CS) - GPIO15
+- Serial Data Out(SDO) - GPIO12
+- Serial Data In(SDI) - GPIO13
+- Clock(CLK) - GPIO14
