@@ -3,7 +3,7 @@
 - LED1 - GPIO33
 - LED2 - GPIO4
 - Switch (SW) - GPIO32
-- LDR (Light Dependent Resistor) - GPIO39
+- Light Dependent Resistor (LDR) - GPIO39
 - Potentiometer (POT) - GPIO36
 
 ## Interfaces
