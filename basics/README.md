@@ -16,3 +16,5 @@ Now that your board is connected to the Arduino IDE, head over to [led_blink](le
 ## Flashing code onto the board
 
 To flash your code onto your board, click the arrow icon next to the tick icon on the toolbar at the top.
+
+![Flashing Instructions](../assets/flashing.png)
