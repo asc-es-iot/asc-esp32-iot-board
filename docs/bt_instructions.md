@@ -2,7 +2,7 @@
 
 To proceed with this tutorial, you need a Bluetooth Terminal application installed on your smartphone. In this example, we have used the "Serial Bluetooth Terminal" app.
 
-<img title="a title" alt="Alt text" src="../assets/images/1.jpg" width="400px">
+<img title="a title" alt="Alt text" src="../assets/bt_images/1.jpg" width="400px">
 
 ## HOW THIS CODE WORKS
 
@@ -56,32 +56,32 @@ The next if statement checks if there are bytes available to read in the Bluetoo
 
 * After uploading the code, open the Serial Monitor at a baud rate of 115200. Press the ESP32 Enable button.
 
-<img title="a title" alt="Alt text" src="../assets/images/2.jpg" width="600px">
+<img title="a title" alt="Alt text" src="../assets/bt_images/2.jpg" width="600px">
 
 * After a few seconds, you should get a message saying: “The device started, now you can pair it with bluetooth!”.
 
 * Go to your smartphone and open the “Serial Bluetooth Terminal” app. Make sure you’ve enable your smartphone’s Bluetooth.
 
-<img title="a title" alt="Alt text" src="../assets/images/3.jpg" width="400px">
+<img title="a title" alt="Alt text" src="../assets/bt_images/3.jpg" width="400px">
 
 * To connect to the ESP32 for the first time, you need to pair a new device.
 
 * After pairing, you should get a “Connected” message.
 
-<img title="a title" alt="Alt text" src="../assets/images/4.jpg" width="400px">
+<img title="a title" alt="Alt text" src="../assets/bt_images/4.jpg" width="400px">
 
 * After that, type something in the Serial Bluetooth Terminal app. For example, “Hello”.
 
-<img title="a title" alt="Alt text" src="../assets/images/5.jpg" width="400px">
+<img title="a title" alt="Alt text" src="../assets/bt_images/5.jpg" width="400px">
 
 * You should instantly receive that message in the Arduino IDE Serial Monitor.
 
-<img title="a title" alt="Alt text" src="../assets/images/6.jpg" width="600px">
+<img title="a title" alt="Alt text" src="../assets/bt_images/6.jpg" width="600px">
 
 * You can also exchange data between your Serial Monitor and your smartphone. Type something in the Serial Monitor top bar and press the “Send” button.
 
-<img title="a title" alt="Alt text" src="../assets/images/7.jpg" width="600px">
+<img title="a title" alt="Alt text" src="../assets/bt_images/7.jpg" width="600px">
 
 * You should instantly receive that message in the Serial Bluetooth Terminal App.
 
-<img title="a title" alt="Alt text" src="../assets/images/8.jpg" width="400px">
+<img title="a title" alt="Alt text" src="../assets/bt_images/8.jpg" width="400px">
