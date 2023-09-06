@@ -1,9 +1,9 @@
 #include "BluetoothSerial.h"
 
-#define USE_PIN // comment this if you dont want to use PIN during pairing.
+//#define USE_PIN // uncomment this if you want to use PIN during pairing.
 const char *pin = "1234";
 
-String device_name = "ESP32-BT-Slave";
+String device_name = "ESP32-BT-07";
 
 #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
 #error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
