@@ -1,6 +1,6 @@
 #include "BluetoothSerial.h"
 
-//#define USE_PIN // uncomment this if you dont want to use PIN during pairing.
+//#define USE_PIN // uncomment this if you want to use PIN during pairing.
 const char *pin = "1234";
 
 String device_name = "ESP32-BT-07";
