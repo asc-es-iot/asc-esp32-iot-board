@@ -62,7 +62,7 @@ void readStr() {
 
 `readStr` is a utility function to read from the flash memory. It makes use of the
 `readStr` function provided by the `flash` object. Arguments to this function
-are the address to read from, and the string to store the information in.
+are the <u>address</u> to read from, and the <u>string</u> to store the information in.
 This function returns `TRUE` if the read operation succeeded and `FALSE` otherwise.
 
 ```arduino
