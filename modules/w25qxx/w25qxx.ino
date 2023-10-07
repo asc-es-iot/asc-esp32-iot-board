@@ -27,7 +27,7 @@ void readStr() {
 	if (flash.readStr(addr, s)) {
 		Serial.println("Read '" + s + "'");	
 	} else {
-		Serial.println("ERROR: Couldnt read array");
+		Serial.println("ERROR: Couldn't read array");
 	}
 }
 
@@ -38,7 +38,7 @@ void writeStr(String s) {
 	if (flash.writeStr(addr, s)) {
 		Serial.println("LOG: Done");
 	} else {
-		Serial.println("ERROR: Couldnt write");
+		Serial.println("ERROR: Couldn't write");
 	}
 }
 

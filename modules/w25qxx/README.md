@@ -21,11 +21,11 @@ into flash memory
 
 ## Code Explanation
 
-A few things to note about the SPI Flash memory module:
-- Since the module is a secondary storage module, it should retain information
-written to it even when power is disconnected
-- The flash module requires that to write to a certain address in the module, 
-the existing data in that address must be erased initially
+> [!NOTE]
+> - Since the module is a secondary storage module, it should retain information
+> written to it even when power is disconnected
+> - The flash module requires that to write to a certain address in the module, 
+> the existing data in that address must be erased initially
 
 
 ```arduino
@@ -55,7 +55,7 @@ void readStr() {
         if (flash.readStr(addr, s)) {
                 Serial.println("Read '" + s + "'");
   } else {
-                Serial.println("ERROR: Couldnt read array");
+                Serial.println("ERROR: Couldn't read array");
         }
 }
 ```
@@ -64,8 +64,6 @@ void readStr() {
 `readStr` function provided by the `flash` object. Arguments to this function
 are the address to read from, and the string to store the information in.
 This function returns `TRUE` if the read operation succeeded and `FALSE` otherwise.
-Both cases have been handled in this scenario, and the user will be intimated
-if there is an error
 
 ```arduino
 void writeStr(String s) {
@@ -75,14 +73,14 @@ void writeStr(String s) {
         if (flash.writeStr(addr, s)) {
                 Serial.println("LOG: Done");
         } else {
-                Serial.println("ERROR: Couldnt write");
+                Serial.println("ERROR: Couldn't write");
         }
 }
 ```
 `writeStr` is a utility function similar to `readStr`, responsible for writing a string.
-1. `s.trim()` removed spaces from the left and right ends of the string
-2. `flash.eraseSelection(addr, s.length() + 1)` erases enough bytes in the flash 
-memory to store the string, starting from the address to which we plan to write.
+1. `s.trim()` removes spaces from the left and right ends of the string
+2. `flash.eraseSelection(addr, s.length() + 1)` starts from the address to which 
+we plan to write and erases sufficient number of bytes in the flash memory to store the string. 
 3. `flash.writeStr(addr, s)` writes the string `s` to address `addr`, and returns
 a boolean value describing success or failure, similar to readStr.
 
@@ -108,7 +106,7 @@ void loop() {
 In the main loop:
 1. Check for Serial input
 2. If input is available, read the string, identify if the user wants to read or write
-    1. If read, call the `readStr` function
-    2. If write, retrieve the string to be written from Serial, and call the `writeStr` function
-    3. If invalid input, print the menu
+    1. If **`read`**, call the `readStr` function
+    2. If **`write`**, retrieve the string to be written from Serial, and call the `writeStr` function
+    3. If **`invalid`** input, print the menu
 
